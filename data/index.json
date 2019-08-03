@@ -1,0 +1,16 @@
+{
+    "users": [
+      {
+        "id": 0,
+        "username": "John",
+        "password": "$2a$10$T8.Jt8Se8IR3UXYUCVdVouLcfIyPL6HWAjWPlMhEU45wAJIpqV0Jy"
+      },
+      {
+        "id": 1,
+        "username": "Emily",
+        "password": "$2a$10$lIzR2QndkTo1HPZZvFovE.hX0O0q0MaK2gMbRNbWokfhN2Xj43sHu"
+      }
+    ]
+  }
+  
+
