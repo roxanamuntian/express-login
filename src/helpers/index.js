@@ -1,12 +1,13 @@
 let jwt = require('jsonwebtoken');
-let secret = require('../config');
 
 const generateToken = (user) => {
+    const secretKey = process.env.SECRET_KEY || "secret"
+
     return jwt.sign({
         id: user.id,
         username: user.username,
         role: 'admin'
-    }, secret, { expiresIn: '24h'})
+    }, secretKey, { expiresIn: '24h'})
 }
 
 module.exports = {
